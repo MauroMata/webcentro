@@ -1,0 +1,622 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+body { 
+font-family: 'open sans';
+}
+
+ 
+
+.titulo{
+    color: #642173;
+    font-size: 1.875em;
+    text-align: center;
+    margin-bottom: 3.75em;
+}
+
+/*header y navegación*/
+header{
+    width: 100%;
+    height: 80%;
+    background-image: url(../img/Centro.png);
+    background-size:cover;
+    background-attachment: fixed;
+    position: relative;
+ 
+}
+
+
+nav{
+    text-align: right;
+    padding: 1.875em 3.125em 0 0;
+    position: sticky;
+    top: 0;
+    width: 100%;
+ }
+
+nav > a{
+    color: #fff;
+    font-weight: 300;
+     margin-right: 0.625em;
+}
+
+nav:hover{ 
+    text-decoration: none; 
+ }
+
+header .textos-header{
+    display: flex;
+    height: 26.875em;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.textos-header h1{
+    font-size: 3.125em;
+    color: #fff;
+}
+.textos-header h2{
+    font-size: 1.875em;
+    font-weight: 300;
+    color: #fff;
+
+}
+
+.wave{
+    position: absolute;
+    bottom: -4%;
+     width: 100%;
+    height: 80%;
+}
+
+/*Sobre nosotros*/
+ 
+.prestaciones {
+    height: 100%;
+    width: 80%;
+    margin: 5% 10% 10% 10%;
+
+}
+.prestaciones h2 {
+    text-align: center;
+    margin: 1em auto;
+     
+}
+
+.servicios {
+    background-color:rgba(238, 130, 238, 0.24);
+    padding: 5% 2% 5% 5%;
+    margin: 0;
+    text-align: justify;
+    align-items: center;
+    
+}
+.servicios ul li {
+    padding: 0.5em;
+}
+
+/*Vision Mision*/
+.contenido-textos {
+    display: flex;
+     flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+     height: 40em;
+    margin: 0;
+    padding-top: 0;
+ 
+}     
+.sobre-nosotros {
+     margin: -5% 0;
+}
+.contenedor-sobre-nosotros img{
+    width: 60%;
+    height: 20em;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+}
+ 
+.contenido-textos h3{
+margin: 0.938em;
+}
+
+.contenido-textos h3 span{
+    background: #4c0686;
+    color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 1.875em;
+    height: 1.875em;
+    padding: 0.125em;
+    box-shadow: 0 0 0.375em 0 rgba (0, 0, 0 .5);
+    margin-right: 0.313em;
+ }
+
+.contenido-textos .modulo {
+    background-color: rgba(105, 165, 255, 0.452);
+     border-radius: 0.30em;
+    width: 30%;
+    height: 60%;
+    padding: 3em;
+}
+
+.contenido-textos p{
+    padding: 0;
+    font-weight: 300;
+    text-align: justify;
+    padding: 0.5em;
+ }
+
+/* Galeria Nuestras sedes*/
+
+.sedes{
+    background: #943cc73b;
+    height: 100%;
+    padding: 1.3em 0;
+
+}
+.contenedor p {
+    text-align: justify;
+    margin: 0 3em;
+}
+.sedes h2{
+    margin: 1em 0;
+    text-align:center;
+    font-size: 1.875em;
+    color: #642173;
+}
+.sedes h3 {
+    text-align: center;
+}
+.galeria-port{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2em 4em 1em 4em;
+}
+.imagen-port{
+    height: 45%;
+    width: 40%;
+    margin-bottom: 1em;
+    cursor: pointer;
+    background-color: #41154b6e;
+    border-radius: 0.188em;
+ }
+ 
+.imagen-port > img{
+    width: 100%;
+    height: 14em;
+    object-fit: cover;
+    display: block;
+    padding: 1em;
+ }
+ 
+.imagen-port p {
+    text-align: center;
+    font-size: 0.9em;
+}
+  
+/*footer*/
+
+.contenedor-footer{
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     background-color: rgba(0, 128, 75, 0.144);
+     margin-top: 3em;
+     height: 100%;
+
+ }
+
+.content-foo{
+   margin: 1.25em;
+   text-align: center;
+   font-size: 1em;
+   
+}
+.content-foo h4{
+border: none;
+}
+.content-foo p{
+   color: rgb(31, 29, 29);
+   border-bottom: 0.063em solid #f2f2f2;
+   padding-bottom: 1.25em;
+}
+
+.titulo-final{
+    font-size: 1em;
+}
+
+.content-foo i{
+    font-size: 2em;
+    color: grey;
+}
+
+/*Sede Florida*/
+
+.florida {
+    height: 100%;
+    width: 80%;
+    margin: 5% 10% 10% 10%;
+}
+.instalaciones-florida h2 {
+     margin: 1em 0;
+    text-align:center;
+    font-size: 1.875em;
+    color: #642173;
+}
+
+.instalaciones-florida {
+    background-color:rgba(238, 130, 238, 0.24);
+    padding: 5% 2% 5% 5%;
+    margin: 0;
+    text-align: justify;
+    align-items: center;
+}
+.instalaciones-florida ul {
+    padding-left: 4em;}
+
+.instalaciones-florida ul li {
+    padding: 0.5em;
+}
+.instalaciones-florida p {
+    padding: 1em;
+}
+/*Galeria de fotos*/
+.galeria-centro {
+    background: #943cc73b;
+    height: 100%;
+    margin-top: 2em;
+    padding-bottom: 2em;
+}
+ 
+.galeria-centro h1{
+     margin: 1em 0;
+    text-align:center;
+    font-size: 1.875em;
+    color: #642173;
+}
+.galeria-imagenes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+ 
+.galeria-centro img {
+    width: 250px;
+    height: 220px;
+    margin: 0.5em;
+     border: solid 0.5em #642173;
+     border-radius: 6px;
+}
+
+    /*Profesionales*/
+ 
+.profesionales {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(64, 224, 208, 0.397);
+    margin: 2em 0;
+ }
+
+.profesionales h1 {
+    padding: 2em 0 0.5em 0;    
+    text-align:center;
+    font-size: 1.875em;
+    color: #642173;
+}
+.card img {
+    width: 100%;
+    height: 18em;
+    object-fit: cover;
+    display: block;
+    margin: 1em auto;
+     }
+
+.card p {
+    padding: 0 2em 1em 2em;
+    text-align: justify;
+}
+.card ul {
+    padding-left: 4em;
+}
+.card ul li {
+     padding: 0.5em;
+     }
+
+
+/*Servicios*/
+
+.sobre-servicios{
+     height: 100%;
+     margin: 5.2em 4em 2em;
+     background-color:#943cc718;
+     padding-top: 2em;
+     
+ }
+.sobre-servicios h1 {
+    text-align: center;
+    font-size:2em;
+    color: #642173;  
+    margin-top: 1em;
+}
+.contenedor-servicios h1{
+    text-align: center;
+     font-size: 1.875em;
+    color: #642173;
+}
+.contenido-sedes h2{
+    margin: 0.625em 0;
+    text-align: center;
+    font-size:2em;
+    color: #642173;    
+}
+
+.contenedor-servicios {
+     display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;  
+    margin-top: -7em;
+}
+.contenido-sedes {
+    height: 20em;
+    width: 31.25em;
+    background-color: rgba(238, 130, 238, 0.212);
+    border: mediumslateblue solid 0.125em;
+    border-radius: 0.438em;
+    margin: 2em;
+    padding: 2em;
+}
+
+/*Galeria de prestaciones*/
+
+.servicios-cont{
+    width: 100%;
+    margin-bottom: 12em;
+    
+}
+.servicios-cont img{
+    display: block;
+    margin: auto;
+    width: 9em;
+    height: 6em;
+  }
+.servicio-ind h3{
+     text-align: center;
+     margin: 1em;
+}
+.servicio-ind p{
+    font-size: 0.938em;
+    text-align: justify;
+}
+.servicio-ind {
+    border: steelblue solid 0.125em;
+    background-color:  rgba(64, 224, 208, 0.192);
+    height: 20%;
+    width: 50%;
+    margin: 2% 25%;
+    padding: 2em;
+    border-radius: 0.375em;
+}
+
+
+/*contacto*/
+ 
+.galeria-port {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+     justify-content: center;
+     flex-wrap: wrap;
+     height: 100%;
+      background-color: rgba(238, 130, 238, 0.13)
+}
+ .sedes {
+    background-color:rgba(238, 130, 238, 0.24);
+    padding: 9% 2% 5% 5%;
+    margin: 0;
+    text-align: justify;
+     width: 90%;
+     margin: auto;
+ }
+ .imagen-port {
+     margin: 1em;
+ }
+.sedes p {
+    text-align: center;
+}
+.imagen-port iframe {
+    display: block;
+    margin: auto;
+}
+
+/**Responsive**/
+
+@media screen and (max-width: 1200px){
+    .contenedor-sobre-nosotros img{
+        height: 19em;
+}    
+.card img {
+    height: 20em;
+    width: 50%;
+  
+    }
+@media screen and (max-width: 1024px){
+    /**vision-mision**/
+        .contenedor-sobre-nosotros img{
+            height: 15em;
+    }    
+    .contenido-textos .modulo {
+        height: 70%;
+    }
+    .imagen-port{
+        height: 25em;
+     }
+    /**Profesionales**/
+    .card img {
+        height: 12em;
+      
+        }
+               /**Contacto**/
+    .imagen-port iframe {
+        height: 5em;
+        width: 15em;
+        }
+        
+
+@media screen and (max-width: 768px){
+    .wave {
+        display: none;
+    }
+
+    header {
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 17em;
+    }
+    nav {
+        display: flex;
+        flex-direction: column;
+        position: absolute fixed;
+        padding: 15% 0 0 0;
+    }
+   
+     /**vision-mision**/
+
+         .contenido-textos {
+             height: 100%;
+         }
+         .contenido-textos .modulo {
+            
+            width: 100%;
+            height: 60%;
+             margin: 1em;
+        }
+        .contenedor-sobre-nosotros img{
+            width: 70%;
+            height: 10em;
+            margin: 3em auto;}
+            
+        /** Galeria nuestas sedes **/
+        .contenido-textos {
+            margin-bottom: 3em; }
+
+        .galeria-port {
+            display: flex;
+            flex-direction: column;
+        }
+        .imagen-port {
+            width: 80%;
+        }
+        
+        /** Footer **/
+        .contenedor-footer {
+            display: flex;
+            flex-direction: column;
+            margin: 0.5em;
+            font-size: 1.2em;
+        }
+ 
+    @media screen and (max-width:480px) {
+      /** Navegación y header**/
+        .wave {
+            display: none;
+        }
+
+        header {
+            background-size: contain;
+            background-repeat: no-repeat;
+            height: 15em;
+        }
+        nav {
+            display: flex;
+            flex-direction: column;
+            position: absolute fixed;
+            padding: 15% 0 0 0;
+        }
+       /**Nosotros**/  
+       .servicios {
+           padding: 2em;
+       }
+       .contenedor-sobre-nosotros img{
+        height: 7em;
+}    
+         /** Galeria nuestas sedes **/
+
+         .galeria-port {
+             justify-content: center;
+            margin: 2em 0.5em 1em 0.5em;
+            }
+            /**Profesionales**/
+            .card img {
+                 height: 12em;
+               
+                 }
+             /**Servicios**/    
+                 .sobre-servicios {
+                    margin-top: 1em;
+                }
+                .servicios-cont {
+                    margin: 25%;
+                }
+                .servicio-ind {
+                    height: 20%;
+                    width: 100%;
+                    margin: 5%;
+                }
+                .contenido-sedes {
+                    height: 100%;
+                }
+       /** COntacto **/
+       .sedes {
+           margin-top: 1em;
+       }
+        /**Contacto**/
+    .imagen-port iframe {
+        width: 11em;    }
+}
+     @media screen and (max-width:320px) {
+
+       /**vision-mision**/
+       .contenedor-sobre-nosotros img{
+         height: 5em;
+}    
+.contenido-textos .modulo {  
+    padding: 1em;
+}
+/**Nuestras sedes**/
+.contenedor p{
+    margin: 0;
+    text-align: justify;
+}
+ /**Profesionales**/
+ .card img {
+    height: 8em;
+  
+    }
+    /**Servicios**/
+    .sobre-servicios {
+        width: 85%;
+        margin: auto;
+    }
+    /**Contacto**/
+    .imagen-port iframe {
+width: 11em;    }
+    
+ 
+}
+}}}
